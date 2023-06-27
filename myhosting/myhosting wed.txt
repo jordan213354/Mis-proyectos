@@ -1,0 +1,12 @@
+
+Nombre de usuario del panel de control:	b22_32045067
+Contraseña del panel de control:	**********
+URL del panel de control:	cpanel.byethost22.com
+Nombre de usuario de MySQL	b22_32045067
+Contraseña de MySQL:	**********
+Nombre de host MySQL:	sql300.byethost22.com
+Nombre de usuario FTP:	b22_32045067
+Contraseña FTP:	**********
+Nombre de host FTP:	ftp.byethost22.com
+URL de su sitio web:	http://etincelle.byethost22.com
+ 	 

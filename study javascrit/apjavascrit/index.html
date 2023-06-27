@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>hola</h1>
+<script>
+    // cadenas de texto string
+    let nombre ="jon";
+    let apellido = "mircha";
+let saludo =new String("hola mundo");
+let lorem = "Todos los tipos, excepto los objetos, definen valores inmutables (es decir, valores que no se pueden cambiar). Por ejemplo (y a diferencia de C), las cadenas son inmutables. Nos referimos a los valores de estos tipos como valores primitivos";
+
+// se pone length para saber cuantos caracteres tiene cada variable ej,solo se ven en la consola
+console.log(nombre,apellido,saludo);
+console.log(nombre.length,
+apellido.length,
+saludo.length,
+// toUpperCase y toLowerCase se pone al lado de la variable para obligar al usuario
+//  a escribir sus datos ya sea en minuscula(to toLowerCase) o mayusculas (to toUpperCase)ej:
+nombre.toUpperCase(), 
+apellido.toLowerCase(),
+// incluides sirve para buscar sea palabra o nm etc,con un punto seguido sele pone ala variable
+// y luego en los parestesis se pone la palabra o caracter que queremos buscar, por eso se llama(incluides)
+// por eso se llama incluides, porque queremos saber si esa palabra o caracter esta incluidos en la variable ej:MIRAR LA COSOLA.  
+lorem.includes("objetos"),
+// trim sirve para quitar los espacios en blanco del texto
+lorem.trim(),
+// split sirve para algo parecido a trim,split llena los espacios vacios y dar una secuencia separadora,
+// ya sea coma(,),() espacios en blaco que auto rellena,
+lorem.split(",")
+ );
+//  aprender la concatenacion: concatenar palabras para formar una oracio completa.ej:consola
+let nombre2 ="jordan";
+let apellido2 ="aranda";
+let saludo2 = "hola mi nombre es" + nombre2+" "+ apellido2
+console.log(saludo2);
+// interpolacion de variable: es lo mismo que arriba pero con un metodo mas facil utilizando
+// template string ejemplo
+let saludo3 =`hola mi nombre es ${nombre2}
+${apellido2}`;
+console.log(saludo3);
+
+
+
+</script>
+</body>
+</html>

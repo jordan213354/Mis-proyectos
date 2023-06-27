@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    box-shadow: none;
+}
+
+
+/* inicio */
+
+
+.titulo {
+color: white;
+
+padding: 10px 100px 10px 10px;
+}
+/* MARCA */
+
+/* ENLACES DE NAVEGACION */
+header {
+    background-color: #49423f ;
+    opacity: 50%;
+    
+    text-align: center;
+    align-items: center;
+justify-content: center;
+  background-color: white;
+
+ padding: 10px;
+
+border-bottom: white 2px solid;
+
+}
+.nav-enlace{
+
+
+    color: rgb(0, 0, 0);
+    padding: 20px;
+   
+text-decoration: none;
+font-size: 11px;
+
+
+}
+.nav-enlace:hover{
+    background:#CB3E1F ;}
+
+
+    /* MENU DE NAVEGACIO */
+.menu {
+  float: right;
+    width: 100%;
+  position: fixed;
+    background:white;
+    padding: 0px 5px 0px 5px;
+  
+
+    margin-bottom: 10px;
+}
+
+    
+.logo {
+    width: 440px;
+}
+
+/* PRECIONA PARA SOLICITAR AYUDA */
+
+
+   
+
+    
+@media(max-width: 600px) {
+    .menu {
+        background: #518497 ;
+       flex-direction: column; 
+  }
+       .nav-enlace{
+           margin: 10px 10px;
+       }
+ 
+     
+     .desaparece{
+         display: none;
+
+     }
+    
+     
+     .nav-enlace {
+        flex-direction: column;
+     }
+}
+
+
+.inicios {
+     background:#a4a4bd;
+  display:block;
+  padding:10px 100px 10px 100px;
+  text-decoration: none;
+  color: antiquewhite;
+  margin: 0px 1428px 0px 319px;
+  display: flex;
+  justify-content: center;
+}
+.inicios:hover{
+    background: salmon;
+}
+/* servicios */
+.sect{
+    margin: 0 auto;
+width: 800px;
+display: flex;
+display: inline-block;
+text-align: center;
+justify-content: center;
+align-items:center;
+}
+.tit{
+    font-family: serif;
+    color:salmon;
+    font-size: 30px;
+}
+.colum{
+   background:#B0C4DE;
+   color:black ;
+   border: solid 1px #808080;
+   margin:0 auto;
+    padding: 10px 60px 10px 60px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px salmon ;
+    width: 45%;
+    
+    box-sizing: border-box;
+    flex: 1 1 auto;
+}
+.precio{
+    font-size: 50px;
+    color: #00FFFF;
+}
+
+.btn-precio{
+   background: salmon ; 
+   display: block;
+   padding: 10px 50px 10px 50px;
+   color: white;
+   text-decoration: none;
+   border-radius: 3px;
+   margin-bottom: 10px;
+   justify-content: center;
+   
+}
+.btn-precio:hover{
+    background:#49423f ;
+}
+@media (max-width: 600px) {
+.colum {
+    width:45%;
+    margin-bottom: 20px;
+
+}
+
+}
+@media ( max-width:500px){
+ .colum{ 
+    margin-bottom: 20px;
+flex-direction: column;}
+}
+
+.title h1 {
+    font-family:  'Orbitron', sans-serif;
+    text-align: center;
+
+}
+.title {
+    font-size: 60px;
+
+    text-align: center;
+margin: 500px 600px 20px 560px;
+}
+.title h6 {
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 60px;
+    width: 100%;
+    text-align: center;
+    font-size:20px ;
+
+
+}
+.s2{
+   background-color: white;
+    }
+

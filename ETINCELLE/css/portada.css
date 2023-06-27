@@ -1,0 +1,171 @@
+/* PORTADA */
+.contenedor-portada {
+z-index: 2;
+height: 600px;
+background-image: url(../img/jj.jpg);
+background-size: 100%;
+animation: movimiento 20s infinite linear alternate ;
+position: relative;
+
+}
+@keyframes movimiento {
+from{
+background-position: bottom left;
+}
+to{
+    background-position: top right;
+
+}
+    
+}
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    background: -webkit-linear-gradient(left ,black
+    ,#262138) ;
+    opacity: 0.4 ;
+  
+}
+.contenedor-texto {
+
+    font-family: 'Montserrat', sans-serif;
+  
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    bottom: 30px; top: 30px;
+   
+}
+
+.texto img {
+   
+width: 500px;
+z-index: 3;
+
+}
+.texto {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+position: relative;
+top: 20px;
+color: bisque;
+z-index: 3;
+
+}
+.parrafo {
+    width: 500px;
+}
+
+.texto p {
+    color: grey;
+    float:inline-end;
+    margin-top: 10px;
+font-size: 20px;
+width: 100%;
+padding-bottom: 30px;
+z-index: 3;
+}
+.texto button {
+ position: relative;
+ bottom: 10px; left: 2px;
+text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+
+    transition: background 300ms ;
+    cursor: pointer;
+    z-index: 3;
+}
+.texto button:hover{
+background: white;
+color: black;
+}
+.relleno{
+    width: 80%;
+ position: relative;
+ top: 100px; left: 166px;
+ right: 200px;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    color: white;
+    color: #262138;
+}
+.videocor{
+    margin-top: 100px;
+}
+.videocorporativo h1{
+    margin-top: 50px;
+    text-align: center;
+
+}
+/* ARTILCULO */
+main {
+    color: black;
+    background-color: white;
+    width: 100%;
+
+
+}
+article {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+article  h1 {
+    font-size: 40px;
+    font-weight:100 ;
+}
+article hr {
+    max-width: 800px;
+    height: 4px;
+    border-style: none;
+    background: -webkit-linear-gradient(left ,black
+    ,#262138) ;
+    margin-top: 10px;
+}
+.n-article3{
+ 
+    display: flex;
+}
+.n-article3 .valores 
+{
+   padding: 50px;
+    border:  solid 1px #262138;
+    border-radius: 100% ;
+    position: relative;
+    left: 200px;
+    
+ margin: 30px;
+}
+.n-article3 .mision {
+
+    width: 100%;
+ position: relative;
+ right:100px ; left: 10px;
+}
+.reseñahistorica img {
+   width: 800px;
+
+}
+article p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.boton1 :hover , .boton1:active { 
+    background-color: white;
+    color: black;
+
+}
